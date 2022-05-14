@@ -1,0 +1,452 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    overflow: hidden;
+}
+
+/*   BANNER CSS    */
+
+/*   HEADER CSS    */
+
+.banner-container {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/images/banner.JPG');
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.main-header {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 1%;
+    align-items: center;
+}
+
+.header-replace {
+    margin-top: 7%;
+    display: none;
+    width: 100%;
+    overflow: hidden;
+  }
+
+.icon-replace {
+    text-align: right;
+    color: rgb(148, 144, 144);
+    margin-right: 10%;
+    margin-top: 5%;
+      
+  }
+
+
+.se-icon {
+    height: 80px;
+    width: 80px;
+
+}
+
+
+.header-menu {
+    margin-right: 5%;
+    width: 80%;
+    text-align: right;
+    display: inline-block;
+}
+
+.header-menu-item {
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    padding-right: 2.2%;
+}
+
+.apply-button {
+    font-size: 14px;
+    height: 43px;
+    width: 110px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(81, 255, 0);
+    border-radius: 7px;
+    border-color: rgb(81, 255, 0);
+}
+
+/*   BANNER BODY CSS   */
+
+
+.banner-body {
+    vertical-align: middle;
+    margin-left: 7%;
+    margin-top: 20%;
+
+}
+
+
+.banner-title-1 {
+    font-size: 4vmax;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+}
+
+.banner-title-2 {
+    font-size: 4vmax;
+    font-family: sans-serif;
+    color: white;
+}
+
+.banner-info {
+    margin-top: 30px;
+    font-size: 3vh;
+    color: white;
+    font-family: sans-serif;
+
+}
+
+
+
+
+/*   Stats CSS   */
+
+
+.stats-container {
+    margin-top: 6%;
+}
+
+/* .stats-left {
+    background-color: red;
+}
+
+.stats-mid {
+    background-color: green;
+}
+
+.stats-right {
+    background-color: blue;
+} */
+
+.stats {
+    font-size: 4vmax;
+    color: rgba(37, 226, 0, 255);
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 4%;
+    
+}
+
+.stats-info {
+    font-size: 3vmin;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+
+
+
+.skills-container {
+    margin: 5%;
+}
+
+.skills-image-container {
+    offset: 1;
+}
+
+.skills-image {
+    height: auto;
+    width: 100%;
+}
+
+.skills-data-container{
+    width: 80%;
+
+}
+
+.skills-title-1 {
+    font-size: 3vmax;
+    text-align: start;
+    font-family: sans-serif;
+    
+}
+.skills-title-2 {
+    font-size: 3vmax;
+    text-align: start;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.skills-data {
+    font-size: 3vh;
+    text-align: start;
+    font-family: sans-serif;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+
+}
+
+.skills-link {
+    color: rgba(37, 226, 0, 255);
+    font-size: 2.5vh;
+    margin-left: 25px;
+    font-family: sans-serif;
+    
+}
+
+
+.discover-part {
+    width: 100%;
+    background-color: rgba(37, 226, 0, 255);
+    padding: 5%;
+}
+
+.discover-part-title-1 {
+    text-align: center;
+    font-size: 3.5vmax;
+    font-family: sans-serif;
+    color: white;
+}
+
+.discover-part-title-2 {
+    font-size: 3.5vmax;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+
+.discover-part-image-container {
+    width: 100%;
+    text-align: center;
+}
+
+.discover-part-image-1-container {
+    display: inline-block;
+    width: 45%;
+    height: auto;
+    text-align: right;
+}
+
+.discover-part-image-2-container {
+    display: inline-block;
+    width: 45%;
+    height: auto;
+    text-align: left;
+}
+
+
+.partner-container{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    
+
+}
+
+.partner-title-1 {
+    text-align: center;
+    font-size: 3.5vmin;
+    font-family: sans-serif;
+
+}
+
+.partner-title-2 {
+    margin-top: 5%;
+    
+    text-align: center;
+    font-size: 2vmin;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: sans-serif;
+
+}
+
+
+.partner-image {
+    width: 80%;
+
+}
+
+
+
+.quote-container {
+    
+    text-align: center;
+}
+
+
+.media-container {
+    text-align: center;
+    height: auto;
+    width: 100%;
+    background-color: rgba(230,230,230,255);
+    padding-bottom: 5%;
+}
+
+.multi-title {
+    padding: 5%;
+    font-size: 3vmax;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+.multi-icon {
+    width: 80%;
+    height: auto;
+    margin-bottom: 30px;
+    
+}
+
+
+.funders-container {
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+
+.strat-container{
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+
+.strat-icon {
+    width: 50%;
+    height: auto;
+    margin-bottom: 30px;
+    
+}
+
+.sub-container{
+    background-color: rgba(230,230,230,255);
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.sub-title-1 {
+    font-size: 3vmax;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+.sub-title-2 {
+    font-size: 3vmax;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+.sub-button {
+    margin-top: 5%;
+    font-size: 22px;
+    height: 55px;
+    width: 125px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+.footer-container {
+    padding: 5%;
+    background-color: black;
+    padding-bottom: 40px;
+    vertical-align: middle;
+}
+
+
+.footer-left {
+    text-align: left;
+    font-family: sans-serif;
+    color: rgba(37, 226, 0, 255);
+    font-size: 18px;
+}
+
+.footer-mid {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+    margin: 5%;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+
+
+
+.gg-menu {
+    transform: scale(var(--ggs,2))
+}
+.gg-menu,
+.gg-menu::after,
+.gg-menu::before {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 2px;
+    border-radius: 3px;
+    background: currentColor
+}
+.gg-menu::after,
+.gg-menu::before {
+    content: "";
+    position: absolute;
+    top: -6px
+}
+.gg-menu::after {
+    top: 6px
+}
+
+
+/****************************************************************************************/
+
+
+
+@media (max-width: 840px) {
+
+
+    .main-header {
+        display: none;
+    }
+
+
+    .header-replace {
+        display: flex;
+    }
+
+
+}
