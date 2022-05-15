@@ -380,7 +380,7 @@ html,body
     padding: 5%;
     background-color: black;
     padding-bottom: 40px;
-    vertical-align: middle;
+    padding-bottom: 5%;
 }
 
 
@@ -397,7 +397,7 @@ html,body
     font-weight: bold;
     font-family: sans-serif;
     color: white;
-    margin: 5%;
+    vertical-align: middle;
 }
 
 .footer-right {
