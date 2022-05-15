@@ -201,7 +201,7 @@ html,body
 }
 
 
-.discover-part {
+.discover-container {
     background-color: rgba(37, 226, 0, 255);
     padding: 5%;
 }
@@ -221,33 +221,8 @@ html,body
     color: white;
 }
 
-/* .discover-part-image-container {
-    width: 100%;
-    text-align: center;
-} */
-
-/* .discover-part-image-1-container {
-    display: inline-block;
-    width: 45%;
-    height: auto;
-    text-align: right;
-} */
-
-/* .discover-part-image-2-container {
-    display: inline-block;
-    width: 45%;
-    height: auto;
-    text-align: left;
-} */
 
 
-.partner-container{
-    height: auto;
-    width: 100%;
-    text-align: center;
-    
-
-}
 
 .partner-title-1 {
     text-align: center;
@@ -283,8 +258,8 @@ html,body
 
 .media-container {
     text-align: center;
-    height: auto;
-    width: 100%;
+    /* height: auto;
+    width: 100%; */
     background-color: rgba(230,230,230,255);
     padding-bottom: 5%;
 }
