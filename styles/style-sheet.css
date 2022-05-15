@@ -20,7 +20,6 @@ html,body
 .banner-container {
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/images/banner.JPG');
     background-position: center;
-    
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
@@ -57,13 +56,6 @@ html,body
 }
 
 
-/* .header-menu { */
-    /* margin-right: 5%; */
-    /* width: 80%; */
-    /* text-align: right; */
-    /* display: inline-block; */
-/* } */
-
 .header-menu-item {
     color: white;
     display: inline-block;
@@ -88,12 +80,6 @@ html,body
 }
 
 /*   BANNER BODY CSS   */
-
-
-/* .banner-body {
-    margin-top: 20%;
-
-} */
 
 
 .banner-title-1 {
@@ -127,17 +113,6 @@ html,body
     margin-top: 6%;
 }
 
-/* .stats-left {
-    background-color: red;
-}
-
-.stats-mid {
-    background-color: green;
-}
-
-.stats-right {
-    background-color: blue;
-} */
 
 .stats {
     font-size: 4vmax;
@@ -156,7 +131,6 @@ html,body
     font-family: sans-serif;
 
 }
-
 
 
 .skills-container {
@@ -189,7 +163,6 @@ html,body
     margin-top: 50px;
     margin-left: 25px;
     margin-bottom: 30px;
-
 }
 
 .skills-link {
@@ -197,7 +170,6 @@ html,body
     font-size: 2.5vh;
     margin-left: 25px;
     font-family: sans-serif;
-    
 }
 
 
@@ -221,14 +193,10 @@ html,body
     color: white;
 }
 
-
-
-
 .partner-title-1 {
     text-align: center;
     font-size: 3.5vmin;
     font-family: sans-serif;
-
 }
 
 .partner-title-2 {
@@ -239,27 +207,13 @@ html,body
     padding-left: 1%;
     padding-right: 1%;
     font-family: sans-serif;
-
 }
-
 
 .partner-image {
     width: 80%;
-
 }
-
-
-
-.quote-container {
-    
-    text-align: center;
-}
-
 
 .media-container {
-    text-align: center;
-    /* height: auto;
-    width: 100%; */
     background-color: rgba(230,230,230,255);
     padding-bottom: 5%;
 }
@@ -270,27 +224,12 @@ html,body
     font-weight: bold;
     text-align: center;
     font-family: sans-serif;
-
 }
 
 .multi-icon {
     width: 80%;
     height: auto;
     margin-bottom: 30px;
-    
-}
-
-
-.funders-container {
-    text-align: center;
-    height: auto;
-    width: 100%;
-}
-
-.strat-container{
-    text-align: center;
-    height: auto;
-    width: 100%;
 }
 
 .strat-icon {
@@ -302,7 +241,6 @@ html,body
 
 .sub-container{
     background-color: rgba(230,230,230,255);
-    align-items: center;
     padding-top: 5%;
     padding-bottom: 5%;
 }
@@ -318,7 +256,6 @@ html,body
     font-size: 3vmax;
     text-align: center;
     font-family: sans-serif;
-
 }
 
 .sub-button {
@@ -333,19 +270,12 @@ html,body
     text-align: center;
 }
 
-
-
-
-
-
-
 .footer-container {
     padding: 5%;
     background-color: black;
     padding-bottom: 40px;
     padding-bottom: 5%;
 }
-
 
 .footer-left {
     text-align: left;
@@ -368,8 +298,7 @@ html,body
 }
 
 
-
-
+/* CSS FOR MENU ICON */
 .gg-menu {
     transform: scale(var(--ggs,2))
 }
@@ -397,15 +326,13 @@ html,body
 
 /****************************************************************************************/
 
-
+/* MEDIA QUERY */
 
 @media (max-width: 850px) {
-
 
     .main-header {
         display: none;
     }
-
 
     .header-replace {
         display: flex;
@@ -414,5 +341,4 @@ html,body
     .banner-container{
         height: 90%;
     }
-
 }
