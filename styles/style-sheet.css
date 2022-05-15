@@ -51,20 +51,18 @@ html,body
       
   }
 
-
 .se-icon {
     height: 80px;
     width: 80px;
-
 }
 
 
-.header-menu {
-    margin-right: 5%;
-    width: 80%;
-    text-align: right;
-    display: inline-block;
-}
+/* .header-menu { */
+    /* margin-right: 5%; */
+    /* width: 80%; */
+    /* text-align: right; */
+    /* display: inline-block; */
+/* } */
 
 .header-menu-item {
     color: white;
@@ -165,18 +163,10 @@ html,body
     margin: 5%;
 }
 
-.skills-image-container {
-    offset: 1;
-}
 
 .skills-image {
     height: auto;
     width: 100%;
-}
-
-.skills-data-container{
-    width: 80%;
-
 }
 
 .skills-title-1 {
@@ -212,7 +202,6 @@ html,body
 
 
 .discover-part {
-    width: 100%;
     background-color: rgba(37, 226, 0, 255);
     padding: 5%;
 }
@@ -232,24 +221,24 @@ html,body
     color: white;
 }
 
-.discover-part-image-container {
+/* .discover-part-image-container {
     width: 100%;
     text-align: center;
-}
+} */
 
-.discover-part-image-1-container {
+/* .discover-part-image-1-container {
     display: inline-block;
     width: 45%;
     height: auto;
     text-align: right;
-}
+} */
 
-.discover-part-image-2-container {
+/* .discover-part-image-2-container {
     display: inline-block;
     width: 45%;
     height: auto;
     text-align: left;
-}
+} */
 
 
 .partner-container{
@@ -435,7 +424,7 @@ html,body
 
 
 
-@media (max-width: 840px) {
+@media (max-width: 850px) {
 
 
     .main-header {
